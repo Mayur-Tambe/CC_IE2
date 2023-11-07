@@ -1,6 +1,6 @@
 <?php
 
-   $connection = mysqli_connect('ccproject11.ckimhevx0nxl.ap-south-1.rds.amazonaws.com','admin','root1234','book_db');
+   $connection = mysqli_connect('db-ie.clol5tmwqul3.eu-north-1.rds.amazonaws.com','admin','admin123','book_db');
 
    if(isset($_POST['send'])){
       $name = $_POST['name'];
